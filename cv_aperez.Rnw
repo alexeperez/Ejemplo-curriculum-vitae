@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[red]{classic}   
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey'.
+
+%\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.80]{geometry}
+
+\title{Curriculum Vitae}
+\firstname{Alex} % Your first name
+\familyname{Pérez} % Your last name
+\mobile{099 842 8362}
+\phone{022 559 703}
+\email{alx\_perez90@hotmail.com}
+%\homepage{Homepage}
+%\extrainfo{Extra Info}
+\photo[75pt][0.5pt]{foto.jpg}
+% Frase:
+%\quote{Subtitle}
+\address{Fernando Oviedo E8-65 y José Barba}{Quito, El Dorado}
+
+\begin{document}
+\maketitle
+
+\section{Información general}
+\cvitem{Nombres}{Alex Efrén}
+\cvitem{Apellidos}{Pérez Tatamués}
+\cvitem{Edad}{24 años}
+\cvitem{Estado civil}{Soltero}
+\cvitem{Nacionalidad}{Ecuatoriano}
+%\cvitem{Fecha de nacimiento}{06 de septiembre de 1990}
+%\cvitem{Lugar de nacimiento}{Tufiño, Tulcan, Carchi}
+
+\section{Educación}
+\cventry{1995--2001}{Instrucción Primaria}{Escuela Fiscal Mixta Los Ríos}{Tulcán}{}{}
+\cventry{2001--2007}{Bachiller en Ciencias}{Instituto Tecnológico Bolívar}{Tulcán}{}{Especialidad Físico Matemático}
+\cventry{2008--2014}{Ingeniero Matemático}{Escuela Politécnica Nacional}{Quito}{}{Mención Cum Laude}
+
+\section{Tesis de grado}
+\cvitem{Título}{Modelo de Activación de Tarjetas de Crédito en el Mercado Crediticio Ecuatoriano a Través de una Metodología Analítica y Automatizada en R.}
+\cvitem{Director}{Luis Alcides Horna Huaraca, PhD.}
+\cvitem{Supervisores}{Julio Medina, PhD., Marcela Guachamín, Msc.}
+\cvitem{Resumen}{Se describe una metodología estadística basada en medidas de divergencia, medidas de asociación, árboles de decisión y regresión logística; la misma que es muy empleada en la construcción de modelos de activación de tarjetas de crédito. Estos modelos toman en consideración el hábito de consumo actual e histórico que tiene un sujeto, con el fin de predecir la probabilidad de que dicho sujeto realice al menos un consumo con una nueva tarjeta, en una ventana de tiempo determinada posterior a la fecha de apertura de la misma. Adicionalmente, se implementa un algoritmo en el software estadístico R, el cual se encarga de realizar de manera automática cada uno de los pasos de la metodología descrita.}
+
+\section{Experiencia Profesional}
+\cventry{2011--2012}{Pasante}{Logiciel Cía. Ltda}{Quito}{}{
+\begin{itemize}
+   \item Desarrollo y monitoreo de modelos Credit Scoring para instituciones del Sistema regulado por la SBS.
+   \item Automatización de metodologías empleadas en la construcción de modelos Credit Scoring en R
+\end{itemize}
+}
+
+\cventry{2013--2013}{Asistente de Producción}{Eternit Ecuatoriana S.A.}{Quito}{}{
+\begin{itemize}
+   \item Pronósticos de ventas.
+   \item Optimización de inventarios.
+\end{itemize}
+}
+
+\cventry{2013--2014}{Pasante}{Equifax}{Quito}{}{
+\begin{itemize}
+   \item Construcción y monitoreo de modelos Credit Scoring para instituciones del Sistema Fianaciero Ecuatoriano.
+   \item Modelos de Asignación de Cupo para tarjetas de crédito, créditos de consumo, hipotecarios, etc.
+   \item Estudios de mercado para tarjetas de crédito.
+\end{itemize}
+}
+
+\cventry{2014--Act.}{Analista Estadístico}{Equifax}{Quito}{}{Analista Estadístico en el área de \emph{Decisions Solutions} de Equifax:
+\begin{itemize}
+   \item Desarrollo y monitoreo de modelos de Riesgo Crediticio de originación y comportamiento para instituciones del Sistema Crediticio Ecuatoriano.
+   \item Desarrollo de modelos de Score Sociodemográficos Genéricos.
+   \item Desarrollo de nuevos modelos:
+     \begin{enumerate}
+        \item Modelos de Activación de Tarjetas de Crédito.
+        \item Modelos de Pérdidas Esperadas.
+     \end{enumerate}
+   \item Automatización en R de metodologías analíticas empleadas en la construcción de varios tipos de modelos.
+  \end{itemize}
+}
+
+\section{Cursos}
+\cvlistitem{Curso de manejo de riesgo financiero con indicadores de gestión, Escuela Politécnica Nacional, Quito, Diciembre 2010.}
+\cvlistitem{XIII Encuentro de Matemática y sus Aplicaciones, Escuela Politécnica Nacional, Quito, Julio 2012.}
+\cvlistitem{R Nivel básico, Sociedad Ecuatoriana de Estadística, Octubre 2012.}
+\cvlistitem{R Nivel Intermedio, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Junio 2013.}
+\cvlistitem{Modelos lineales en R, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Julio 2013.}
+\cvlistitem{Análisis Multivariante en R, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Agosto 2013.}
+\cvlistitem{R Nivel Avanzado, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Agosto 2013.}
+
+
+\section{Idiomas}
+\cvitemwithcomment{Castellano}{Lengua materna}{}
+\cvitemwithcomment{Inglés}{Intermedio}{}
+
+\section{Aptitudes y conocimientos}
+\cvlistitem{Riesgo Financiero}
+\cvlistitem{Minería de datos}
+\cvlistitem{Estadística Computacional}
+\cvlistitem{Pronósticos con Series Temporales}
+\cvlistitem{Simulación Estocástica}
+\cvlistitem{Optimización Matemática}
+\cvlistitem{Lenguajes de programación (R, C++)}
+\cvlistitem{Manejo avanzado de Softwares Estadísticos (SPSS, RStudio, R Analytic Flow, Answer Tree)}
+\cvlistitem{LaTeX}
+\cvlistitem{Microsoft Office}
+
+
+\end{document}
