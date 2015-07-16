@@ -1,20 +1,20 @@
 \documentclass[11pt,a4paper]{moderncv}
-\moderncvtheme[red]{classic}   
+%\moderncvtheme[red]{oldstyle}   
 
-\moderncvstyle{classic}
-\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey'.
+\moderncvstyle{classic} % casual(default) classic oldstyle banking
+\moderncvcolor{blue}         % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey'.
 
 %\usepackage[spanish,es-noshorthands]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.77]{geometry}
 
 \title{Curriculum Vitae}
-\firstname{Alex} % Your first name
+\firstname{Alex E.} % Your first name
 \familyname{Pérez} % Your last name
-\mobile{099 842 8362}
-\phone{022 559 703}
-\email{alx\_perez90@hotmail.com}
-%\homepage{Homepage}
+\mobile{(+593) 99 842 8362}
+\phone{(022) 559 703}
+\email{lexperez90@hotmail.com}
+\homepage{https://github.com/alexeperez}
 %\extrainfo{Extra Info}
 \photo[75pt][0.5pt]{foto.jpg}
 % Frase:
@@ -43,13 +43,16 @@
 \cvitem{Título}{Modelo de Activación de Tarjetas de Crédito en el Mercado Crediticio Ecuatoriano a Través de una Metodología Analítica y Automatizada en R.}
 \cvitem{Director}{Luis Alcides Horna Huaraca, PhD.}
 \cvitem{Supervisores}{Julio Medina, PhD., Marcela Guachamín, Msc.}
-\cvitem{Resumen}{Se describe una metodología estadística basada en medidas de divergencia, medidas de asociación, árboles de decisión y regresión logística; la misma que es muy empleada en la construcción de modelos de activación de tarjetas de crédito. Estos modelos toman en consideración el hábito de consumo actual e histórico que tiene un sujeto, con el fin de predecir la probabilidad de que dicho sujeto realice al menos un consumo con una nueva tarjeta, en una ventana de tiempo determinada posterior a la fecha de apertura de la misma. Adicionalmente, se implementa un algoritmo en el software estadístico R, el cual se encarga de realizar de manera automática cada uno de los pasos de la metodología descrita.}
+
+
+\cvitem{Resumen}{Se describe una metodología estadística basada en medidas de divergencia, medidas de asociación, árboles de decisión y regresión logística; la misma que es muy empleada en la construcción de modelos de activación de tarjetas de crédito. Estos modelos toman en consideración el hábito de consumo actual e histórico que tiene un sujeto, con el fin de predecir la probabilidad de que dicho sujeto realice al menos un consumo con una nueva tarjeta, en una ventana de tiempo determinada posterior a la fecha de apertura de la misma.\newline
+Adicionalmente, se implementa un algoritmo en el software estadístico R, el cual se encarga de realizar de manera automática cada uno de los pasos de la metodología descrita.}
 
 \section{Experiencia Profesional}
 \cventry{Ene 2012 -- Dic 2012}{Pasante}{Logiciel Cía. Ltda}{Quito}{}{
 \begin{itemize}
    \item Desarrollo y monitoreo de modelos Credit Scoring para instituciones del Sistema regulado por la SBS.
-   \item Automatización de metodologías empleadas en la construcción de modelos Credit Scoring en R
+   \item Automatización de metodologías empleadas en la construcción de modelos Credit Scoring en R.
 \end{itemize}
 }
 
@@ -63,14 +66,17 @@
 \cventry{Jul 2013 -- Dic 2013}{Pasante}{Equifax}{Quito}{}{
 \begin{itemize}
    \item Construcción y monitoreo de modelos Credit Scoring para instituciones del Sistema Fianaciero Ecuatoriano.
-   \item Modelos de Asignación de Cupo para tarjetas de crédito, créditos de consumo, hipotecarios, etc.
+   \item Modelos de Asignación de Cupo para tarjetas de crédito, créditos de consumo, créditos
+   hipotecarios, etc.
    \item Estudios de mercado para tarjetas de crédito.
 \end{itemize}
 }
 
-\cventry{Ene 2014 -- Act.}{Analista Estadístico}{Equifax}{Quito}{}{Analista Estadístico en el área de \emph{Decisions Solutions} de Equifax:
+\cventry{Ene 2014 -- Abr 2015.}{Analista Estadístico}{Equifax}{Quito}{}{Analista Estadístico en el área de \emph{Decisions Solutions} de Equifax:
 \begin{itemize}
-   \item Desarrollo y monitoreo de modelos de Riesgo Crediticio de originación y comportamiento para instituciones del Sistema Crediticio Ecuatoriano.
+   \item Modelos de asignación de cupo para tarjetas de crédito, créditos de consumo, créditos
+   hipotecarios, etc.
+   \item Desarrollo y monitoreo de modelos de riesgo crediticio de originación y comportamiento para instituciones del Sistema Crediticio Ecuatoriano.
    \item Desarrollo de modelos de Score Sociodemográficos Genéricos.
    \item Desarrollo de nuevos modelos:
      \begin{enumerate}
@@ -81,6 +87,15 @@
   \end{itemize}
 }
 
+
+\cventry{May 2015 -- Act.}{Docente}{Escuela Politécnica Nacional}{Quito}{}{Técnico docente del Deparatamento de Matemática de la EPN en las catedras correspondientes a:
+\begin{itemize}
+   \item Modelos lineales y diseño de experimentos.
+   \item Estadística matemática.
+  \end{itemize}
+}
+
+
 \section{Cursos}
 \cvlistitem{Curso de manejo de riesgo financiero con indicadores de gestión, Escuela Politécnica Nacional, Quito, Diciembre 2010.}
 \cvlistitem{XIII Encuentro de Matemática y sus Aplicaciones, Escuela Politécnica Nacional, Quito, Julio 2012.}
@@ -89,6 +104,7 @@
 \cvlistitem{Modelos lineales en R, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Julio 2013.}
 \cvlistitem{Análisis Multivariante en R, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Agosto 2013.}
 \cvlistitem{R Nivel Avanzado, Escuela de R-Estadística, Sociedad Ecuatoriana de Estadística, Agosto 2013.}
+\cvlistitem{R Programming, Coursera, Johns Hopkins University, Enero 2015.}
 
 
 \section{Idiomas}
